@@ -7,8 +7,8 @@ genesis_block = {
 }
 blockchain = [genesis_block]
 open_transactions = []
-owner = "BruceyBonus"
-participants = {"BruceyBonus"}
+owner = "BruceyBonus123"
+participants = {"BruceyBonus123"}
 
 def hash_block(block):
     return "-".join([str(block[key]) for key in block])
